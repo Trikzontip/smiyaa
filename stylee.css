@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+}
+.cover_lay{
+    height: 100vh;
+    background: #0a0025;
+    font-family: "Loved by the King", cursive;
+    font-style: normal;
+  
+}
+.puzzle{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cover_head{
+    font-size: 60px;
+  text-align: center;
+  color: rgb(222, 83, 130);
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+.cover_sub{
+    font-size: 40px;
+  text-align: center;
+  color: rgb(78, 241, 86);
+  margin-bottom: 20px;
+}
+
+.puzzle-container {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    gap: 5px;
+    margin-bottom: 40px;
+  }
+  .puzzle-tile {
+    width: 100px;
+    height: 100px;
+    background-color: #f4a261;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.puzzle-tile img {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+
+.puzzle-tile.blank {
+    background-color: #f7f1e3;
+}
+.butttom{
+    color: #fff;
+    background: rgb(78, 241, 86);
+    width: 130px;
+    padding: 7px;
+    text-align: center;
+    letter-spacing: 1.5px;
+    font-weight: 800;
+    display: none;
+}
+.buttonarea{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
