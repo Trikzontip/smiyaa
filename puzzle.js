@@ -60,7 +60,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 // Add an event listener for the click event
                 element.addEventListener('click', function() {
                     // Redirect to a different link
-                    window.location.href = '/home.html';  // Replace with your desired link
+                    window.location.href = 'smiyaa/home.html';  // Replace with your desired link
                 });
             }
         }
